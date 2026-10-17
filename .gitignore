@@ -1,0 +1,13 @@
+.env
+.extension-token
+.venv/
+__pycache__/
+.pytest_cache/
+runs/
+*.log
+.artifacts/
+.venv-*/
+*.pptx
+*.pdf
+submission/slides/
+submission/source/

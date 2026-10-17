@@ -1,0 +1,243 @@
+{
+  "title": "冬季閱讀班",
+  "synthetic": true,
+  "text": "【虛構示例】冬季閱讀班\n對象：8至12歲兒童，須由家長陪同。\n活動：2026年12月6日上午10時至11時。\n截止：2026年11月28日中午12時。\n地點：書友中心三樓閱讀室。\n費用：每名兒童港幣10元，陪同家長免費。\n報名：致電中心登記；每名家長限帶一名兒童。",
+  "outputs": {
+    "zh-Hant": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "冬季閱讀班",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】冬季閱讀班"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "8至12歲兒童，須家長陪同",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：8至12歲兒童，須由家長陪同。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "2026年12月6日上午10時至11時",
+          "evidence": [
+            {
+              "line_id": "L0003",
+              "quote": "活動：2026年12月6日上午10時至11時。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "stated",
+          "value": "2026年11月28日中午12時",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "截止：2026年11月28日中午12時。"
+            }
+          ]
+        },
+        "location": {
+          "status": "stated",
+          "value": "書友中心三樓閱讀室",
+          "evidence": [
+            {
+              "line_id": "L0005",
+              "quote": "地點：書友中心三樓閱讀室。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "stated",
+          "value": "每名兒童港幣10元，陪同家長免費",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "費用：每名兒童港幣10元，陪同家長免費。"
+            }
+          ]
+        },
+        "method": {
+          "status": "stated",
+          "value": "致電中心登記",
+          "evidence": [
+            {
+              "line_id": "L0007",
+              "quote": "報名：致電中心登記；每名家長限帶一名兒童。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "須家長陪同，每名家長限帶一名兒童",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：8至12歲兒童，須由家長陪同。"
+            },
+            {
+              "line_id": "L0007",
+              "quote": "報名：致電中心登記；每名家長限帶一名兒童。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "冬季閱讀班",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】冬季閱讀班"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "如符合年齡要求，請於截止前致電登記，並由家長陪同參加。",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：8至12歲兒童，須由家長陪同。"
+            },
+            {
+              "line_id": "L0004",
+              "quote": "截止：2026年11月28日中午12時。"
+            },
+            {
+              "line_id": "L0007",
+              "quote": "報名：致電中心登記；每名家長限帶一名兒童。"
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "Winter reading class",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】冬季閱讀班"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "Children aged 8–12, accompanied by a parent",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：8至12歲兒童，須由家長陪同。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "6 December 2026, 10–11 am",
+          "evidence": [
+            {
+              "line_id": "L0003",
+              "quote": "活動：2026年12月6日上午10時至11時。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "stated",
+          "value": "28 November 2026, noon",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "截止：2026年11月28日中午12時。"
+            }
+          ]
+        },
+        "location": {
+          "status": "stated",
+          "value": "Third-floor reading room, Book Friends Centre",
+          "evidence": [
+            {
+              "line_id": "L0005",
+              "quote": "地點：書友中心三樓閱讀室。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "stated",
+          "value": "HK$10 per child; accompanying parent free",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "費用：每名兒童港幣10元，陪同家長免費。"
+            }
+          ]
+        },
+        "method": {
+          "status": "stated",
+          "value": "Call the centre to register",
+          "evidence": [
+            {
+              "line_id": "L0007",
+              "quote": "報名：致電中心登記；每名家長限帶一名兒童。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "Parent must accompany the child; one child per parent",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：8至12歲兒童，須由家長陪同。"
+            },
+            {
+              "line_id": "L0007",
+              "quote": "報名：致電中心登記；每名家長限帶一名兒童。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "Winter reading class",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】冬季閱讀班"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "If eligible, call before the deadline to register and attend with a parent.",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：8至12歲兒童，須由家長陪同。"
+            },
+            {
+              "line_id": "L0004",
+              "quote": "截止：2026年11月28日中午12時。"
+            },
+            {
+              "line_id": "L0007",
+              "quote": "報名：致電中心登記；每名家長限帶一名兒童。"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="把社區通知讀明白：通俗解釋、行動清單與原文引句。">
+  <title>明白通 ClearNotice HK</title><link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+<div id="config" hidden data-labels="{{ labels | tojson | forceescape }}" data-disclaimers="{{ disclaimers | tojson | forceescape }}"></div>
+<header class="masthead"><a class="brand" href="/" aria-label="明白通首頁"><span class="brand-mark" aria-hidden="true">明</span><span>明白通 <small>CLEARNOTICE HK</small></span></a><span class="mode {{ mode }}">{{ '示例體驗' if mode == 'fixture' else '通知重點卡' }}</span></header>
+<main>
+  <section class="intro"><p class="eyebrow">少讀一點，看懂重點</p><h1>把通知，變成一張卡片。</h1><p class="lede">貼上連結或文字，看看什麼時候、與誰有關，以及下一步。</p></section>
+  <div class="workspace">
+    <section class="panel input-panel" aria-labelledby="input-heading">
+      <div class="section-heading"><h2 id="input-heading">貼上通知</h2><button id="edit-notice" type="button" hidden aria-expanded="false" aria-controls="notice-form">修改通知</button></div>
+      <p id="input-collapsed" class="subtle" hidden>原文已保留，隨時可以修改。</p>
+      <form id="notice-form">
+        <div class="input-tabs" role="group" aria-label="通知輸入方式"><button id="choose-url" type="button" aria-pressed="true">網頁連結</button><button id="choose-text" type="button" aria-pressed="false">貼上文字</button></div>
+        <div id="url-input-panel"><label for="notice-url">通知網頁連結</label><input id="notice-url" type="url" maxlength="2048" placeholder="https://www.info.gov.hk/…" aria-describedby="url-help"><p id="url-help" class="subtle">讀取公開網頁後，確認正文即可生成卡片。暫不支援登入頁、PDF或只有圖片的通知。</p><button id="read-url" type="button">讀取通知</button><p id="import-status" role="status" aria-live="polite" hidden></p></div>
+        <div id="text-input-panel" hidden>
+        <label for="notice">通知原文 <span class="subtle">（30–12,000字）</span></label>
+        <textarea id="notice" name="text" rows="7" placeholder="在這裡貼上完整通知，包括日期、地點及條件……" aria-describedby="privacy count"></textarea>
+        <div class="input-meta"><p id="privacy">請勿貼上證件號碼或其他敏感資料。</p><span id="count">0 / 12,000</span></div>
+        </div>
+        {% if mode == 'fixture' %}<p class="mode-note" role="note">示例體驗：請選擇預設的虛構通知，查看預先整理的重點卡片。</p>{% else %}<p class="mode-note" role="note"><span id="url-privacy-note">讀取連結時會訪問來源網站。</span>生成重點卡片時，正文會傳送至 DeepSeek。請先移除個人資料。明白通不保存一般通知原文。</p>{% endif %}
+        <details class="examples"><summary>體驗示例通知</summary><p class="subtle">選擇以下示例，體驗通知解讀與重點整理。示例機構及內容均為虛構，僅供功能展示。</p><div class="example-buttons">{% for e in examples %}<button type="button" class="example" data-text="{{ e.text }}" data-title="{{ e.title }}">{{ e.title }}</button>{% endfor %}</div></details>
+        <div class="form-row"><div><label for="language">解讀語言</label><select id="language"><option value="zh-Hant">繁體中文</option><option value="en">English</option></select></div><details class="source-name"><summary>來源名稱（選填）</summary><div><label for="source-label">來源名稱 <span class="subtle">選填</span></label><input id="source-label" maxlength="120" placeholder="例如：中心告示板"></div></details></div>
+        <details id="source-options" class="source-options" hidden><summary>加入來源網址（選填）</summary><label for="source-url">來源網址（僅作記錄，不會自動讀取）</label><input id="source-url" type="url" maxlength="2048" placeholder="https://…" disabled></details>
+        <button id="analyze" type="submit" class="primary" hidden>生成重點卡片 <span aria-hidden="true">↗</span></button>
+      </form>
+    </section>
+    <section class="result-panel" aria-labelledby="result-heading" hidden><h2 id="result-heading" class="sr-only">通知重點卡</h2>
+      <p id="status" class="status" role="status" aria-live="polite">準備好後，按「解讀通知」。</p>
+      <div id="empty-state" hidden></div>
+      <div id="result" hidden></div>
+      <div id="result-tools" class="result-tools" hidden><button id="open-source" type="button">核對原文</button><button id="copy" type="button" disabled>複製卡片</button><button id="print" type="button" disabled>列印卡片</button></div>
+      <div id="copy-fallback" hidden><label for="copy-text">未能自動複製，請選取以下文字後手動複製。</label><textarea id="copy-text" readonly rows="8"></textarea></div>
+    </section>
+  </div>
+  <footer><p>重要日期、費用及資格，請核對原通知。</p><span>明白通 · 輕鬆看懂社區通知</span></footer>
+</main>
+<dialog id="source-dialog" aria-labelledby="source-heading"><div class="source-title"><h2 id="source-heading">核對原文</h2><button id="close-source" type="button">關閉</button></div><p id="source-context" class="subtle"></p><div id="source-panel"><div id="source-lines" class="source-lines" aria-label="附行號的原文"></div></div></dialog>
+<pre id="print-content" aria-hidden="true"></pre>
+</body></html>

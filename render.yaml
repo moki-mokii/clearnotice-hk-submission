@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: clearnotice-hk
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python deploy/start.py
+    healthCheckPath: /health
+    autoDeploy: false
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: LLM_MODE
+        value: fixture
+      - key: LLM_BASE_URL
+        value: https://api.deepseek.com
+      - key: LLM_MODEL
+        value: deepseek-flash
+      - key: LLM_JSON_MODE
+        value: "true"
+      - key: LLM_DISABLE_THINKING
+        value: "true"

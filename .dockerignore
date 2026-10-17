@@ -1,0 +1,17 @@
+.git
+.env
+.env.*
+!.env.example
+.extension-token
+.venv*
+.artifacts
+runs
+__pycache__
+*.pyc
+*.log
+node_modules
+output
+tests
+docs
+extension
+scripts

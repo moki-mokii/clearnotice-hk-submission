@@ -1,0 +1,243 @@
+{
+  "title": "社區環保講座",
+  "synthetic": true,
+  "text": "【虛構示例】社區環保講座\n對象：年滿18歲的本區居民。\n活動日期：2026年11月12日下午3時至4時。\n報名截止：2026年11月5日下午6時。\n地點：晴朗中心一樓禮堂。\n費用：港幣20元。\n報名方法：親臨中心接待處登記。\n條件：名額30人，先到先得；不接受即場報名。",
+  "outputs": {
+    "zh-Hant": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "社區環保講座",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】社區環保講座"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "年滿18歲的本區居民",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：年滿18歲的本區居民。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "2026年11月12日下午3時至4時",
+          "evidence": [
+            {
+              "line_id": "L0003",
+              "quote": "活動日期：2026年11月12日下午3時至4時。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "stated",
+          "value": "2026年11月5日下午6時",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "報名截止：2026年11月5日下午6時。"
+            }
+          ]
+        },
+        "location": {
+          "status": "stated",
+          "value": "晴朗中心一樓禮堂",
+          "evidence": [
+            {
+              "line_id": "L0005",
+              "quote": "地點：晴朗中心一樓禮堂。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "stated",
+          "value": "港幣20元",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "費用：港幣20元。"
+            }
+          ]
+        },
+        "method": {
+          "status": "stated",
+          "value": "親臨中心接待處登記",
+          "evidence": [
+            {
+              "line_id": "L0007",
+              "quote": "報名方法：親臨中心接待處登記。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "名額30人，先到先得；不接受即場報名",
+          "evidence": [
+            {
+              "line_id": "L0008",
+              "quote": "條件：名額30人，先到先得；不接受即場報名。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "社區環保講座",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】社區環保講座"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "如符合資格並希望參加，請於截止前親臨接待處登記；不接受即場報名。",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：年滿18歲的本區居民。"
+            },
+            {
+              "line_id": "L0004",
+              "quote": "報名截止：2026年11月5日下午6時。"
+            },
+            {
+              "line_id": "L0007",
+              "quote": "報名方法：親臨中心接待處登記。"
+            },
+            {
+              "line_id": "L0008",
+              "quote": "條件：名額30人，先到先得；不接受即場報名。"
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "Community environmental talk",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】社區環保講座"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "Residents of this district aged 18 or above",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：年滿18歲的本區居民。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "12 November 2026, 3–4 pm",
+          "evidence": [
+            {
+              "line_id": "L0003",
+              "quote": "活動日期：2026年11月12日下午3時至4時。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "stated",
+          "value": "5 November 2026, 6 pm",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "報名截止：2026年11月5日下午6時。"
+            }
+          ]
+        },
+        "location": {
+          "status": "stated",
+          "value": "First-floor hall, Sunny Centre",
+          "evidence": [
+            {
+              "line_id": "L0005",
+              "quote": "地點：晴朗中心一樓禮堂。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "stated",
+          "value": "HK$20",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "費用：港幣20元。"
+            }
+          ]
+        },
+        "method": {
+          "status": "stated",
+          "value": "Register in person at the centre reception",
+          "evidence": [
+            {
+              "line_id": "L0007",
+              "quote": "報名方法：親臨中心接待處登記。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "30 places, first come first served; no walk-in registration",
+          "evidence": [
+            {
+              "line_id": "L0008",
+              "quote": "條件：名額30人，先到先得；不接受即場報名。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "Community environmental talk",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】社區環保講座"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "If eligible and interested, register at reception before the deadline; no walk-in registration.",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "對象：年滿18歲的本區居民。"
+            },
+            {
+              "line_id": "L0004",
+              "quote": "報名截止：2026年11月5日下午6時。"
+            },
+            {
+              "line_id": "L0007",
+              "quote": "報名方法：親臨中心接待處登記。"
+            },
+            {
+              "line_id": "L0008",
+              "quote": "條件：名額30人，先到先得；不接受即場報名。"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

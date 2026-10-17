@@ -1,0 +1,243 @@
+{
+  "id": "demo01",
+  "title": "社區環保講座",
+  "synthetic": true,
+  "demo_only": true,
+  "style": "narrative_notice",
+  "created_at": "2026-10-16",
+  "reference_review": {
+    "status": "pending_team_review",
+    "author": "AI-assisted draft"
+  },
+  "text": "【虛構示例】晴朗中心致居民：社區環保講座現接受報名\n各位居民：近日不少街坊向中心反映，家中的塑膠包裝、飲品紙盒和舊電器雖然已經分開收集，卻仍不清楚哪些可以回收、應送往甚麼地方。為讓大家更容易在日常生活中實踐減廢，本中心將安排一場社區環保講座，透過生活例子介紹常見回收物的處理方法，並設交流環節。\n\n講座定於2026年11月12日下午3時至4時，在晴朗中心一樓禮堂舉行。中心希望參加者能把遇到的回收問題帶到現場，與講者及其他居民一同交流。\n\n是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。\n\n有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。\n\n如對活動安排有疑問，請向中心接待處查詢。感謝各位街坊支持，一起從生活小事做起，讓社區更整潔。\n晴朗中心（虛構機構）　2026年10月16日",
+  "outputs": {
+    "zh-Hant": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "社區環保講座",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】晴朗中心致居民：社區環保講座現接受報名"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "年滿18歲的本區居民",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "2026年11月12日下午3時至4時",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "講座定於2026年11月12日下午3時至4時，在晴朗中心一樓禮堂舉行。中心希望參加者能把遇到的回收問題帶到現場，與講者及其他居民一同交流。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "stated",
+          "value": "2026年11月5日下午6時",
+          "evidence": [
+            {
+              "line_id": "L0008",
+              "quote": "有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。"
+            }
+          ]
+        },
+        "location": {
+          "status": "stated",
+          "value": "晴朗中心一樓禮堂",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "講座定於2026年11月12日下午3時至4時，在晴朗中心一樓禮堂舉行。中心希望參加者能把遇到的回收問題帶到現場，與講者及其他居民一同交流。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "stated",
+          "value": "港幣20元",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。"
+            }
+          ]
+        },
+        "method": {
+          "status": "stated",
+          "value": "親臨中心接待處登記",
+          "evidence": [
+            {
+              "line_id": "L0008",
+              "quote": "有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "名額30人，先到先得；不接受即場報名",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。"
+            },
+            {
+              "line_id": "L0008",
+              "quote": "有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "社區環保講座",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】晴朗中心致居民：社區環保講座現接受報名"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "如符合資格並希望參加，請於截止前親臨接待處登記；不接受即場報名。",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。"
+            },
+            {
+              "line_id": "L0008",
+              "quote": "有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。"
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "Community environmental talk",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】晴朗中心致居民：社區環保講座現接受報名"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "Residents of this district aged 18 or above",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "12 November 2026, 3–4 pm",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "講座定於2026年11月12日下午3時至4時，在晴朗中心一樓禮堂舉行。中心希望參加者能把遇到的回收問題帶到現場，與講者及其他居民一同交流。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "stated",
+          "value": "5 November 2026, 6 pm",
+          "evidence": [
+            {
+              "line_id": "L0008",
+              "quote": "有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。"
+            }
+          ]
+        },
+        "location": {
+          "status": "stated",
+          "value": "First-floor hall, Sunny Centre",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "講座定於2026年11月12日下午3時至4時，在晴朗中心一樓禮堂舉行。中心希望參加者能把遇到的回收問題帶到現場，與講者及其他居民一同交流。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "stated",
+          "value": "HK$20",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。"
+            }
+          ]
+        },
+        "method": {
+          "status": "stated",
+          "value": "Register in person at the centre reception",
+          "evidence": [
+            {
+              "line_id": "L0008",
+              "quote": "有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "30 places, first come first served; no walk-in registration",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。"
+            },
+            {
+              "line_id": "L0008",
+              "quote": "有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "Community environmental talk",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】晴朗中心致居民：社區環保講座現接受報名"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "If eligible and interested, register at reception before the deadline; no walk-in registration.",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "是次活動歡迎年滿18歲的本區居民參加，每位收費港幣20元，名額共30人，按登記先後分配，額滿即止。"
+            },
+            {
+              "line_id": "L0008",
+              "quote": "有意參加的居民，請於2026年11月5日下午6時或之前親臨中心接待處登記。請留意，活動不接受即場報名，未有完成登記者請勿直接到禮堂輪候。"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

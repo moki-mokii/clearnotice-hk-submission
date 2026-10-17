@@ -1,0 +1,223 @@
+{
+  "id": "demo04",
+  "title": "服務時間調整",
+  "synthetic": true,
+  "demo_only": true,
+  "style": "narrative_notice",
+  "created_at": "2026-10-16",
+  "reference_review": {
+    "status": "pending_team_review",
+    "author": "AI-assisted draft"
+  },
+  "text": "【虛構示例】安居中心服務站十一月二十日服務安排調整通知\n各位服務使用者：為配合中心內部設施檢查，安居中心地下服務站將在指定日期調整服務時間。中心已就當日預約作出安排，請已獲確認預約的人士留意以下說明，避免在暫停服務期間到場。\n\n2026年11月20日，服務站只在上午9時至中午12時開放，下午暫停服務。當日下午的服務時段不作開放，敬請使用者留意，以免向隅。\n\n當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。\n\n尚未獲確認預約的人士，請先向服務站了解安排，不要直接到場輪候。如對當日預約有疑問，可向服務站職員查詢。感謝各位理解及配合。\n安居中心（虛構機構）　2026年10月16日",
+  "outputs": {
+    "zh-Hant": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "安居服務站下午暫停服務",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】安居中心服務站十一月二十日服務安排調整通知"
+            },
+            {
+              "line_id": "L0004",
+              "quote": "2026年11月20日，服務站只在上午9時至中午12時開放，下午暫停服務。當日下午的服務時段不作開放，敬請使用者留意，以免向隅。"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "已預約人士",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "2026年11月20日上午9時至中午12時；下午暫停服務",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "2026年11月20日，服務站只在上午9時至中午12時開放，下午暫停服務。當日下午的服務時段不作開放，敬請使用者留意，以免向隅。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "missing",
+          "value": null,
+          "evidence": []
+        },
+        "location": {
+          "status": "stated",
+          "value": "安居中心地下服務站",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "missing",
+          "value": null,
+          "evidence": []
+        },
+        "method": {
+          "status": "stated",
+          "value": "按已獲確認的時段到場，毋須重新預約",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "當日只受理已預約人士",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "安居服務站11月20日下午暫停服務，已預約人士請按原定時段於上午到場。",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "2026年11月20日，服務站只在上午9時至中午12時開放，下午暫停服務。當日下午的服務時段不作開放，敬請使用者留意，以免向隅。"
+            },
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "已預約人士請按已確認時段到場，毋須重新預約。",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "Afternoon service suspension at Safe Home Service Point",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】安居中心服務站十一月二十日服務安排調整通知"
+            },
+            {
+              "line_id": "L0004",
+              "quote": "2026年11月20日，服務站只在上午9時至中午12時開放，下午暫停服務。當日下午的服務時段不作開放，敬請使用者留意，以免向隅。"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "People with confirmed appointments",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "20 November 2026, 9 am–noon; afternoon service suspended",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "2026年11月20日，服務站只在上午9時至中午12時開放，下午暫停服務。當日下午的服務時段不作開放，敬請使用者留意，以免向隅。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "missing",
+          "value": null,
+          "evidence": []
+        },
+        "location": {
+          "status": "stated",
+          "value": "Ground-floor service point, Safe Home Centre",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "missing",
+          "value": null,
+          "evidence": []
+        },
+        "method": {
+          "status": "stated",
+          "value": "Attend at your confirmed time; no need to rebook",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "Only people with appointments will be served that day",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "Afternoon service is suspended on 20 November; existing appointment holders should attend in the morning at their confirmed times.",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "2026年11月20日，服務站只在上午9時至中午12時開放，下午暫停服務。當日下午的服務時段不作開放，敬請使用者留意，以免向隅。"
+            },
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "If you have an appointment, attend at the confirmed time; no rebooking is needed.",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "當日只受理已預約人士。已收到確認的服務使用者，請按已獲確認的上午時段，到安居中心地下服務站辦理；毋須因這次時間調整重新預約。"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

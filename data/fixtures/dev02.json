@@ -1,0 +1,225 @@
+{
+  "title": "手機入門班",
+  "synthetic": true,
+  "text": "【虛構示例】樂鄰中心手機入門班\n活動日期：2026年11月8日，下午2時至4時。\n地點：樂鄰中心二樓活動室。\n對象：60歲或以上人士，名額20人，先到先得。\n報名截止：2026年11月3日下午5時。\n報名方法：親臨中心接待處登記，並攜帶身份證供核對年齡。\n查詢：請向中心接待處了解詳情。",
+  "outputs": {
+    "zh-Hant": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "樂鄰中心手機入門班",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】樂鄰中心手機入門班"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "60歲或以上人士",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "對象：60歲或以上人士，名額20人，先到先得。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "2026年11月8日下午2時至4時",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "活動日期：2026年11月8日，下午2時至4時。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "stated",
+          "value": "2026年11月3日下午5時",
+          "evidence": [
+            {
+              "line_id": "L0005",
+              "quote": "報名截止：2026年11月3日下午5時。"
+            }
+          ]
+        },
+        "location": {
+          "status": "stated",
+          "value": "樂鄰中心二樓活動室",
+          "evidence": [
+            {
+              "line_id": "L0003",
+              "quote": "地點：樂鄰中心二樓活動室。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "missing",
+          "value": null,
+          "evidence": []
+        },
+        "method": {
+          "status": "stated",
+          "value": "親臨中心接待處登記，並攜帶身份證供核對年齡",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "報名方法：親臨中心接待處登記，並攜帶身份證供核對年齡。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "60歲或以上，名額20人，先到先得",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "對象：60歲或以上人士，名額20人，先到先得。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "樂鄰中心手機入門班",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】樂鄰中心手機入門班"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "如符合年齡要求並希望參加，請於截止前到接待處登記，攜帶身份證供核對年齡。",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "對象：60歲或以上人士，名額20人，先到先得。"
+            },
+            {
+              "line_id": "L0005",
+              "quote": "報名截止：2026年11月3日下午5時。"
+            },
+            {
+              "line_id": "L0006",
+              "quote": "報名方法：親臨中心接待處登記，並攜帶身份證供核對年齡。"
+            }
+          ]
+        }
+      ]
+    },
+    "en": {
+      "facts": {
+        "subject": {
+          "status": "stated",
+          "value": "Smartphone beginner class at Friendly Neighbour Centre",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】樂鄰中心手機入門班"
+            }
+          ]
+        },
+        "audience": {
+          "status": "stated",
+          "value": "People aged 60 or above",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "對象：60歲或以上人士，名額20人，先到先得。"
+            }
+          ]
+        },
+        "event_time": {
+          "status": "stated",
+          "value": "8 November 2026, 2–4 pm",
+          "evidence": [
+            {
+              "line_id": "L0002",
+              "quote": "活動日期：2026年11月8日，下午2時至4時。"
+            }
+          ]
+        },
+        "registration_deadline": {
+          "status": "stated",
+          "value": "3 November 2026, 5 pm",
+          "evidence": [
+            {
+              "line_id": "L0005",
+              "quote": "報名截止：2026年11月3日下午5時。"
+            }
+          ]
+        },
+        "location": {
+          "status": "stated",
+          "value": "Second-floor activity room, Friendly Neighbour Centre",
+          "evidence": [
+            {
+              "line_id": "L0003",
+              "quote": "地點：樂鄰中心二樓活動室。"
+            }
+          ]
+        },
+        "fee": {
+          "status": "missing",
+          "value": null,
+          "evidence": []
+        },
+        "method": {
+          "status": "stated",
+          "value": "Register in person at reception and bring an identity card for age checking",
+          "evidence": [
+            {
+              "line_id": "L0006",
+              "quote": "報名方法：親臨中心接待處登記，並攜帶身份證供核對年齡。"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "stated",
+          "value": "Age 60 or above; 20 places, first come first served",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "對象：60歲或以上人士，名額20人，先到先得。"
+            }
+          ]
+        }
+      },
+      "summary": [
+        {
+          "text": "Smartphone beginner class at Friendly Neighbour Centre",
+          "evidence": [
+            {
+              "line_id": "L0001",
+              "quote": "【虛構示例】樂鄰中心手機入門班"
+            }
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "text": "If aged 60 or above and interested, register at reception before the deadline and bring your identity card for age checking.",
+          "evidence": [
+            {
+              "line_id": "L0004",
+              "quote": "對象：60歲或以上人士，名額20人，先到先得。"
+            },
+            {
+              "line_id": "L0005",
+              "quote": "報名截止：2026年11月3日下午5時。"
+            },
+            {
+              "line_id": "L0006",
+              "quote": "報名方法：親臨中心接待處登記，並攜帶身份證供核對年齡。"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
